@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="container">
+        <button id="btn">New book</button>
+        <div id="input" class="hidden">
+            <form onsubmit="return false">
+                <label for="title">Title</label>
+                <input type="text" id="title" name="title"><br><br>
+                <label for="author">Author</label>
+                <input type="text" id="author" name="author"><br><br>
+                <button id="submit">Submit</button>
+            </form>
+            
+        </div>
+        <div id="bookcontainer"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

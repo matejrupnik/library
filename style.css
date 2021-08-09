@@ -1,0 +1,9 @@
+.hidden {
+    display: none;
+}
+
+.cont {
+    background-color: #ccc;
+    width: 300px;
+    height: 300px;
+}
